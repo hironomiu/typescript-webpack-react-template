@@ -2,7 +2,7 @@ const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ESLintPlugin = require('eslint-webpack-plugin')
-// const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
   entry: { app: './src/ts/app.tsx' },
@@ -39,15 +39,15 @@ module.exports = {
         use: 'babel-loader',
         exclude: /node_modules/,
       },
-      // {
-      //   test: /\.scss$/,
-      //   use: [
-      //     MiniCssExtractPlugin.loader,
-      //     'css-loader',
-      //     'postcss-loader',
-      //     'sass-loader',
-      //   ],
-      // },
+      {
+        test: /\.css$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'postcss-loader',
+          // 'sass-loader',
+        ],
+      },
     ],
   },
   resolve: {
@@ -60,11 +60,11 @@ module.exports = {
       chunks: ['app'],
     }),
     new ESLintPlugin({
-      extensions: ['.ts', '.js'],
+      extensions: ['.ts', '.js', '.tsx'],
       exclude: 'node_modules',
     }),
-    // new MiniCssExtractPlugin({
-    //   filename: './css/[name].[contenthash].css',
-    // }),
+    new MiniCssExtractPlugin({
+      filename: './css/[name].[contenthash].css',
+    }),
   ],
 }

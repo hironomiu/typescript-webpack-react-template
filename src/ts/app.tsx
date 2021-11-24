@@ -2,14 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { store } from './app/store'
 import { Provider } from 'react-redux'
-import Hello from './components/Hello'
+import Home from './components/Home'
+import './app.css'
 
 const app = document.getElementById('app')
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <Hello />
+      <Home />
     </Provider>
   </React.StrictMode>,
   app

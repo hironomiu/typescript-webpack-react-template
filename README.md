@@ -2,7 +2,7 @@
 
 [![biuld](https://github.com/hironomiu/typescript-webpack-react-template/actions/workflows/build.yml/badge.svg)](https://github.com/hironomiu/typescript-webpack-react-template/actions/workflows/build.yml)
 
-Typescript + Webpack + Babel + ESLint + Jest + React(+Redux Toolkit)
+Typescript + Webpack + Babel + ESLint + Jest + React(+Redux Toolkit) + TailwindCSS
 
 ## Operation
 
@@ -26,9 +26,13 @@ yarn test
 
 ## SetUp
 
-## Build Memo
+```
+yarn install
+```
 
-環境構築は`yarn`を利用
+## Environment Build Memo
+
+パッケージ管理は`yarn (v1)`を利用
 
 ### Initialize
 
@@ -90,4 +94,32 @@ yarn add --dev @babel/preset-react
 
 ```
 yarn add @reduxjs/toolkit @types/node redux @types/redux
+```
+
+### Tailwind
+
+```
+yarn add tailwindcss@latest @types/tailwindcss
+yarn add --dev postcss-loader postcss autoprefixer css-loader mini-css-extract-plugin
+```
+
+Initialize
+
+```
+npx tailwindcss init -p
+```
+
+Modify tailwind.config.js
+
+```
+- purge: []
++ purge: ['./src/**/*.tsx'],
+```
+
+`src/app.css`
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
