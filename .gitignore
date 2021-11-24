@@ -166,4 +166,7 @@ psd
 thumb
 sketch
 
+### VSCode ###
+.vscode/
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,node,react
