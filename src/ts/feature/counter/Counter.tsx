@@ -1,4 +1,4 @@
-import React, { VFC } from 'react'
+import { VFC } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { decrement, increment, selectCount } from './counterSlice'
 

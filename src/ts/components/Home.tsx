@@ -1,4 +1,4 @@
-import React, { VFC } from 'react'
+import { VFC } from 'react'
 import Counter from '../feature/counter/Counter'
 
 const Home: VFC = () => {

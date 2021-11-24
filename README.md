@@ -91,7 +91,7 @@ yarn add --dev babel-loader @babel/core @babel/preset-env @babel/preset-typescri
 ### ESlint
 
 ```
-yarn add --dev eslint eslint-webpack-plugin @typescript-eslint/eslint-plugin @typescript-eslint/parser
+yarn add --dev eslint eslint-webpack-plugin @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-reactyar
 ```
 
 ### Jest
