@@ -30,6 +30,30 @@ yarn test
 yarn install
 ```
 
+## Sample Code
+
+`./src/*`
+
+```
+.
+├── __tests__
+│   ├── counterSlice.spec.ts
+│   └── dummy.spec.ts
+├── html
+│   └── index.html
+└── ts
+    ├── app
+    │   └── store.ts
+    ├── app.css
+    ├── app.tsx
+    ├── components
+    │   └── Home.tsx
+    └── feature
+        └── counter
+            ├── Counter.tsx
+            └── counterSlice.tsx
+```
+
 ## Environment Build Memo
 
 パッケージ管理は`yarn (v1)`を利用
