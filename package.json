@@ -1,0 +1,52 @@
+{
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "test": "jest",
+    "dev": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "tsc": "tsc",
+    "no-emit": "tsc --noEmit"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/jest": "^27.0.3",
+    "@types/jsdom": "^16.2.13",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^8.3.0",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.3.1",
+    "jsdom": "^18.1.1",
+    "terser-webpack-plugin": "^5.2.5",
+    "ts-jest": "^27.0.7",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
+    "@types/node": "^16.11.10",
+    "@types/react": "^17.0.36",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-redux": "^7.1.20",
+    "@types/redux": "^3.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2"
+  }
+}
