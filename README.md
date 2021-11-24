@@ -1,5 +1,7 @@
 # typescript-webpack-babel-jest-react-template
 
+[![NodeJS with Webpack](https://github.com/hironomiu/typescript-webpack-babel-jest-react-template/actions/workflows/build.yml/badge.svg)](https://github.com/hironomiu/typescript-webpack-babel-jest-react-template/actions/workflows/build.yml)
+
 Typescript + Webpack + Babel + Jest + React(+Redux Toolkit)
 
 ## Operation
