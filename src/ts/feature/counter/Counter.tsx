@@ -7,12 +7,18 @@ const Counter: VFC = () => {
   const dispatch = useDispatch()
 
   return (
-    <div className="flex flex-row text-xl">
-      <button className="text-xl mx-3" onClick={() => dispatch(decrement())}>
+    <div className="flex flex-row text-xl mt-10">
+      <button
+        className="text-5xl mx-5 px-5"
+        onClick={() => dispatch(decrement())}
+      >
         -
       </button>
-      <p className="text-xl">{count}</p>
-      <button className="text-xl mx-3" onClick={() => dispatch(increment())}>
+      <p className="text-5xl">{count}</p>
+      <button
+        className="text-5xl mx-5 px-5"
+        onClick={() => dispatch(increment())}
+      >
         +
       </button>
     </div>
