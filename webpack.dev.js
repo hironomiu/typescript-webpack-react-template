@@ -13,5 +13,6 @@ module.exports = merge(commonConfig, {
       directory: path.join(__dirname, 'public'),
       serveIndex: true,
     },
+    historyApiFallback: true,
   },
 })
