@@ -4,7 +4,7 @@ const path = require('path')
 
 module.exports = merge(commonConfig, {
   mode: 'development',
-  watch: true,
+  // watch: true,
   devtool: 'eval-cheap-module-source-map',
   devServer: {
     open: true,
