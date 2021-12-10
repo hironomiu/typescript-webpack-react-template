@@ -10,7 +10,12 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     sourceType: 'module',
-    ecmaVersion: 2020,
+    ecmaVersion: 2021,
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
   extends: ['eslint:recommended', 'plugin:react/recommended'],
   // 'plugin:prettier/recommended'],

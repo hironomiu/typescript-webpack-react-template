@@ -5,6 +5,7 @@ describe('counterReducer', () => {
     value: 3,
     status: 'idle',
   }
+
   it('initial state', () => {
     expect(counterReducer(undefined, { type: 'unknown' })).toEqual({
       value: 0,

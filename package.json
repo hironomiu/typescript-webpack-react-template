@@ -3,13 +3,10 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
     "test": "jest",
-    "dev": "webpack --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
+    "dev": "webpack --config webpack.dev.js",
     "tsc": "tsc",
     "no-emit": "tsc --noEmit"
-  },
-  "jest": {
-    "testEnvironment": "jsdom"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
