@@ -73,7 +73,7 @@ yarn add --dev webpack webpack-cli webpack-merge clean-webpack-plugin html-webpa
 ### TypeScript
 
 ```
-yarn add --dev typescript ts-loader ts-node
+yarn add --dev typescript ts-node
 ```
 
 Initialize
@@ -137,7 +137,10 @@ Modify tailwind.config.js
 
 ```
 - purge: []
-+ purge: ['./src/**/*.tsx'],
++ purge: {
++    enabled: true,
++    content: ['./src/**/*.tsx', './public/index.html'],
++  },
 ```
 
 `src/app.css`
