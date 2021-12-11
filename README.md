@@ -151,3 +151,23 @@ Modify tailwind.config.js
 @tailwind components;
 @tailwind utilities;
 ```
+
+## Vercel Deploy Memo
+
+[Vercel](https://vercel.com/)
+
+### FRAMEWORK PRESET
+
+Other
+
+### BUILD COMMAND
+
+yarn run build
+
+### OUTPUT DIRECTORY
+
+public
+
+### INSTALL COMMAND
+
+yarn install
