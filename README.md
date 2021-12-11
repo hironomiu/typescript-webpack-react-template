@@ -1,6 +1,7 @@
 # typescript-webpack-react-template
 
 [![biuld](https://github.com/hironomiu/typescript-webpack-react-template/actions/workflows/build.yml/badge.svg)](https://github.com/hironomiu/typescript-webpack-react-template/actions/workflows/build.yml)
+[![schedule-build](https://github.com/hironomiu/typescript-webpack-react-template/actions/workflows/schedule-build.yml/badge.svg)](https://github.com/hironomiu/typescript-webpack-react-template/actions/workflows/schedule-build.yml)
 
 Typescript + Webpack + Babel + ESLint + Jest + React(+Redux Toolkit) + TailwindCSS
 
