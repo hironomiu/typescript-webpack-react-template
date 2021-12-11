@@ -74,7 +74,7 @@ yarn add --dev webpack webpack-cli webpack-merge clean-webpack-plugin html-webpa
 ### TypeScript
 
 ```
-yarn add --dev typescript
+yarn add --dev typescript ts-node
 ```
 
 Initialize
@@ -92,7 +92,7 @@ yarn add --dev babel-loader @babel/core @babel/preset-env @babel/preset-typescri
 ### ESlint
 
 ```
-yarn add --dev eslint eslint-webpack-plugin @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-reactyar
+yarn add --dev eslint eslint-webpack-plugin @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react
 ```
 
 ### Jest
@@ -156,18 +156,9 @@ Modify tailwind.config.js
 
 [Vercel](https://vercel.com/)
 
-### FRAMEWORK PRESET
-
-Other
-
-### BUILD COMMAND
-
-yarn run build
-
-### OUTPUT DIRECTORY
-
-public
-
-### INSTALL COMMAND
-
-yarn install
+| 設定項目         | 設定値         |
+| :--------------- | :------------- |
+| FRAMEWORK PRESET | Other          |
+| BUILD COMMAND    | yarn run build |
+| OUTPUT DIRECTORY | public         |
+| INSTALL COMMAND  | yarn install   |
