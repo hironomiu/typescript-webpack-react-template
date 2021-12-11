@@ -1,4 +1,4 @@
-name: biuld
+name: schedule-build
 
 on:
   schedule:
