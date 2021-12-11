@@ -74,7 +74,7 @@ yarn add --dev webpack webpack-cli webpack-merge clean-webpack-plugin html-webpa
 ### TypeScript
 
 ```
-yarn add --dev typescript ts-node
+yarn add --dev typescript
 ```
 
 Initialize
