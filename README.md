@@ -62,7 +62,7 @@ yarn install
 ### Initialize
 
 ```
-yarn
+yarn init -y
 ```
 
 ### Webpack
@@ -137,11 +137,16 @@ npx tailwindcss init -p
 Modify tailwind.config.js
 
 ```
-- purge: []
-+ purge: {
-+    enabled: true,
-+    content: ['./src/**/*.tsx', './public/index.html'],
-+  },
+module.exports = {
+  content: ['./src/**/*.tsx', './public/index.html'],
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}
 ```
 
 `src/app.css`
