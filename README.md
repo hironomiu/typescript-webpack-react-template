@@ -69,6 +69,7 @@ yarn init -y
 
 ```
 yarn add --dev webpack webpack-cli webpack-merge clean-webpack-plugin html-webpack-plugin terser-webpack-plugin webpack-dev-server
+yarn add --dev npm-run-all
 ```
 
 ### TypeScript
