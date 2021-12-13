@@ -139,7 +139,7 @@ Initialize
 npx tailwindcss init -p
 ```
 
-Modify tailwind.config.js
+Modify `tailwind.config.js`
 
 v3
 
@@ -175,7 +175,7 @@ module.exports = {
 }
 ```
 
-`src/app.css`
+Modify `src/app.css`
 
 ```
 @tailwind base;
