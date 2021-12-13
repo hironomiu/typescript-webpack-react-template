@@ -33,6 +33,8 @@ yarn install
 
 ## Sample Code
 
+![demo](./demo.gif)
+
 `./src/*`
 
 ```
