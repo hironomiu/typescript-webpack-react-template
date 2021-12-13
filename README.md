@@ -137,6 +137,23 @@ npx tailwindcss init -p
 
 Modify tailwind.config.js
 
+v3
+
+```
+module.exports = {
+  content: ['./src/**/*.tsx', './public/index.html'],
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+v2
+
 ```
 module.exports = {
   content: ['./src/**/*.tsx', './public/index.html'],
