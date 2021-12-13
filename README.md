@@ -5,7 +5,13 @@
 
 Typescript + Webpack + Babel + ESLint + Jest + React(+Redux Toolkit) + TailwindCSS
 
-## Operation
+## SetUp
+
+```
+yarn install
+```
+
+## Operations
 
 ### Run
 
@@ -23,12 +29,6 @@ yarn run build
 
 ```
 yarn test
-```
-
-## SetUp
-
-```
-yarn install
 ```
 
 ## Sample Code
