@@ -94,6 +94,8 @@ yarn add --dev babel-loader @babel/core @babel/preset-env @babel/preset-typescri
 
 ### ESlint
 
+[typescript-eslint/packages/eslint-plugin/docs/rules](https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin/docs/rules)
+
 ```
 yarn add --dev eslint eslint-webpack-plugin @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react
 ```
