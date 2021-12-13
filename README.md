@@ -156,7 +156,11 @@ v2
 
 ```
 module.exports = {
-  content: ['./src/**/*.tsx', './public/index.html'],
+  purge: {
+    enabled: true,
+    content: ['./src/**/*.tsx', './public/index.html'],
+  },
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
