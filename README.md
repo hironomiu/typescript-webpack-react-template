@@ -104,6 +104,7 @@ yarn add --dev eslint eslint-webpack-plugin @typescript-eslint/eslint-plugin @ty
 
 ```
 yarn add --dev jest jsdom eslint-plugin-jest @types/jest @types/jsdom ts-jest
+yarn add --dev @testing-library/react @testing-library/jest-dom
 ```
 
 Initialize
