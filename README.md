@@ -38,12 +38,14 @@ yarn test
 `./src/*`
 
 ```
-.
+./src
 ├── __tests__
+│   ├── Counter.spec.tsx
 │   ├── counterSlice.spec.ts
 │   └── dummy.spec.ts
 ├── html
 │   └── index.html
+├── setupTests.ts
 └── ts
     ├── app
     │   └── store.ts
