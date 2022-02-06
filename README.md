@@ -5,6 +5,8 @@
 
 Typescript + Webpack + Babel + ESLint + Jest + React(+Redux Toolkit) + TailwindCSS
 
+[ハンズオン形式の説明エントリー：Qiita](https://qiita.com/hironomiu/items/eac89ca4801534862fed)
+
 ## SetUp
 
 ```
